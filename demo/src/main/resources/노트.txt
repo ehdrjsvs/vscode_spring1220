@@ -1,0 +1,7 @@
+다른언어와의 인터페이스가 되는 부분에대해서는 @annotation사용과 properties,yml파일을 활욜해서
+공통코드를 작성하고 연동할수있도록 환경설정을해야한다.
+
+properties는 반복되는 코드때문에 최근에는 yamul파일로 처리한다
+
+java.util.Properties클래스를 일반 파일로 지원함
+Properties Props = new Properties();
